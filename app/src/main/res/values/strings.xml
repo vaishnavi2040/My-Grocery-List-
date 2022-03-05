@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">My Grocery List</string>
+    <!-- strings.xml -->
+
+    <string name="lorem_ipsum">
+          Thinking of buying Grocery
+        Get Started with making a Grocery List
+         </string>
+    <string name="gets_things">
+
+        Get your Grocery List ready!
+    </string>
+    <string name="welcome_onb">
+
+        Welcome Onboard!
+    </string>
+    <string name="let_s_help_">
+
+        Register yourself and create your grocery list
+    </string>
+
+    <style name="already_hav">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            0.06
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="already_hav">
+
+        Already have an account ? Sign In
+    </string>
+    <!-- strings.xml -->
+    <string name="welcome_bac">
+
+        Welcome Back!
+    </string>
+
+    <string name="forgot_pass">
+
+        Forgot Password
+    </string>
+    <string name="don_t_have_">
+
+        Do not have an account ? Sign Up
+    </string>
+    <string name="welcome_oli">
+
+        Welcome, Oliva Grace
+    </string>
+    <string name="tasks_list">
+
+        Tasks List
+    </string>
+    <string name="title_activity_item_list">item_list</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

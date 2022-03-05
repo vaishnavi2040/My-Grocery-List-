@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <!-- drawable/notificatio.xml -->
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        android:width="324.67dp"
+        android:height="16dp"
+        android:viewportWidth="324.67"
+        android:viewportHeight="16"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M0 0H324.667V16H0V0Z"
+                />
+
+        </group>
+
+    </vector>
+

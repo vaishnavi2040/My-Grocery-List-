@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <!-- splash -->
+    <RelativeLayout
+        android:id="@+id/splash"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/splash"
+        android:clipToOutline="true">
+
+        <ImageButton
+            android:id="@+id/button_splash"
+            android:layout_width="325dp"
+            android:layout_height="62dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="83dp"
+            android:layout_marginTop="634dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/button1" />
+
+        <RelativeLayout
+            android:id="@+id/shape"
+            android:layout_width="290dp"
+            android:layout_height="270dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="-45dp"
+            android:layout_marginTop="-54dp"
+            android:background="@drawable/shape1" />
+    </RelativeLayout>
+
+
+    <!-- undraw_mobile_ux_o0e1 1 -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/undraw_mobi"
+        android:layout_width="172.56dp"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="113dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/undraw_mobile_ux"
+        android:clipToOutline="true" />
+
+
+    <!-- drawable/undraw_mobi.xml -->
+
+
+    <!-- Gets things done with TODO -->
+    <TextView
+        android:id="@+id/gets_things"
+        android:layout_width="281dp"
+        android:layout_height="21dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="411dp"
+        android:gravity="top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/gets_things"
+        android:textAppearance="@style/gets_things" />
+
+    <!--
+      Font family: Poppins
+      Line height: 21sp
+      (identical to box height)
+    -->
+    <!-- styles.xml -->
+
+
+    <!-- strings.xml -->
+
+
+    <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum dictum tempus, interdum at dignissim metus. Ultricies sed nunc. -->
+    <TextView
+        android:id="@+id/lorem_ipsum"
+        android:layout_width="281dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="468dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="0sp"
+        android:text="@string/lorem_ipsum"
+        android:textAppearance="@style/lorem_ipsum" />
+
+    <!--
+      Font family: Poppins
+      Line height: 18sp
+    -->
+    <!-- styles.xml -->
+
+
+    <!-- strings.xml -->
+
+
+    <!-- button -->
+
+
+    <!-- drawable/button.xml -->
+
+</RelativeLayout>
